@@ -1,5 +1,6 @@
 #!/bin/sh
 cd `dirname $0`
+rtexit /localhost/Crawler.rtc
 rtexit /localhost/MotorDriver_TA8428K0.rtc
 rtexit /localhost/CrawlerController0.rtc
 rtexit /localhost/AccAndMagnSensor_LSM303DLHC0.rtc
